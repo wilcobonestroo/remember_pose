@@ -10,6 +10,7 @@ project(remember_pose)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
+  geometry_msgs
   ar_track_alvar_msgs
 )
 
