@@ -19,3 +19,9 @@ Moreover, I used the launch file from the same package to launch RVIZ:
 As I could not run the official ar tag code in Noetic, I used the repo that was described at the end of [this issue](https://github.com/ros-perception/ar_track_alvar/issues/82). 
 
 `git clone https://github.com/machinekoder/ar_track_alvar.git -b noetic-devel`
+
+## Usage
+
+Just clone this repo into the `src` folder of your workpackage and build it with `catkin_make`.
+
+`git clone https://github.com/wilcobonestroo/remember_pose.git`
