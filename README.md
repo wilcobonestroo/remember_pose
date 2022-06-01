@@ -25,3 +25,7 @@ As I could not run the official ar tag code in Noetic, I used the repo that was 
 Just clone this repo into the `src` folder of your workpackage and build it with `catkin_make`.
 
 `git clone https://github.com/wilcobonestroo/remember_pose.git`
+
+Once it is build and sourced (!) the node can be started with:
+
+`rosrun remember_pose run.py`
